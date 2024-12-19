@@ -2,7 +2,7 @@ class FrequencyArray {
     countArray: number[];
     maxItem: number;
 
-    FrequencyArray() {
+    constructor() {
         this.countArray = Array(26).fill(0)
         this.maxItem = 0;
     }
